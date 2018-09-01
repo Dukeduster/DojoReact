@@ -72,7 +72,7 @@ class Pokemon extends Component {
 
             </div>
             <footer className="card-footer">
-                <button className="button is-primary" onClick={() => this.props.catchThem(this.state.attributes)}>
+                <button className="button is-primary" onClick={() => this.props.onCatch(this.state.attributes)}>
                     Capture
                 </button>
             </footer>
